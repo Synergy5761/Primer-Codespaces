@@ -27,7 +27,7 @@ const siteProps = {
   name: "Jeff",
   title: "Computer Engineering Student",
   email: "jeff@example.com",
-  gitHub: "https://github.com/Synergy5761",
+  gitHub: "Synergy5761",
   instagram: "",
   linkedIn: "",
   medium: "",
