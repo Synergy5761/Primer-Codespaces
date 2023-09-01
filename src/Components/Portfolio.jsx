@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/PCB-of-device.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "PCB showing an electronic device";
 
 /**
  * Project list
@@ -64,7 +64,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "90%", width: "100%", marginLeft: "10%", objectFit: "cover" }}
             alt={imageAltText}
           />
         </div>

@@ -41,8 +41,7 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote =
-  "Lifelong learner for all technology.";
+const detailOrQuote = "Lifelong learner for all technology.";
 
 const About = () => {
   return (
@@ -50,6 +49,7 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
+          color: "white",
           backgroundColor: "gray",
           width: "30%",
           padding: "4rem",
@@ -62,6 +62,7 @@ const About = () => {
         <hr />
         <ul
           style={{
+            color: "white",
             textAlign: "left",
             columns: 1,
             fontSize: "1.25rem",
@@ -74,7 +75,7 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p style={{ color: "white", padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
     </section>
   );
