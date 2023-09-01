@@ -29,7 +29,7 @@ const siteProps = {
   email: "jeff@example.com",
   gitHub: "https://github.com/Synergy5761",
   instagram: "",
-  linkedIn: "satyanadella",
+  linkedIn: "",
   medium: "",
   twitter: "",
   youTube: "",
