@@ -19,7 +19,8 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/PCB-of-device.jpg";
+import image1 from "../images/PCB-of-device.jpg";
+import image2 from "../images/abstract-background.jpg"
 
 const imageAltText = "PCB showing an electronic device";
 
@@ -59,18 +60,12 @@ const projectList = [
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
-
-       <div className="background"> 
-        <div style={{color: "gray"}}>
-
-        </div>
-      </div>
-
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+      <img className="background" src={image2} alt="" />
+      <h2 style={{ color: "white", textAlign: "center" }}>Portfolio</h2>
+      <div style={{ color: "white", display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
-            src={image}
+            src={image1}
             style={{ height: "90%", width: "100%", marginLeft: "10%", objectFit: "cover" }}
             alt={imageAltText}
           />
@@ -79,7 +74,7 @@ const Portfolio = () => {
           {projectList.map((project) => (
             <div className="box" key={project.title}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+                <h3 style={{ color: "white", flexBasis: "40px" }}>{project.title}</h3>
               </a>
               <p className="small">{project.description}</p>
             </div>
